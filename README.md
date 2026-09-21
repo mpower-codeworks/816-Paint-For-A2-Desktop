@@ -6,7 +6,7 @@ I am not sure if others have already figured these out, but I think I've gotten
 816 from being fun to use with A2D:
 -->
 
-# 8/16-𝐏𝐚𝐢𝐧𝐭-𝐅𝐨𝐫-𝐀2-𝐃𝐞𝐬𝐤𝐭𝐨𝐩
+# 8/16 𝐏𝐚𝐢𝐧𝐭 𝐅𝐨𝐫 𝐀𝐩𝐩𝐥𝐞 𝐈𝐈 𝐃𝐞𝐬𝐤𝐭𝐨𝐩
 
 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐬𝐮𝐫𝐞 𝐢𝐟 𝐨𝐭𝐡𝐞𝐫𝐬 𝐡𝐚𝐯𝐞 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐟𝐢𝐠𝐮𝐫𝐞𝐝 𝐭𝐡𝐞𝐬𝐞 𝐨𝐮𝐭, 𝐛𝐮𝐭 𝐈 𝐭𝐡𝐢𝐧𝐤 𝐈'𝐯𝐞 𝐠𝐨𝐭𝐭𝐞𝐧
 8/16 Paint 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 𝐩𝐫𝐞𝐭𝐭𝐲 𝐰𝐞𝐥𝐥 𝐨𝐧
