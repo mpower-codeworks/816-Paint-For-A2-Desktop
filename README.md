@@ -4,9 +4,9 @@ I am not sure if others have already figured this out, but I think I've gotten
 816 Paint working pretty well on A2 Desktop. There were a few issues preventing
 816 from being fun to use with A2D.
 
-1) Has to be on root volume else fonts and printers don't work
-2) The fonts aren't that great
-3) It doesn't quit cleanly back to A2D (goes to monitor)
+- Has to be on root volume else fonts and printers don't work
+- The fonts aren't that great
+- It doesn't quit cleanly back to A2D (goes to monitor)
 
 The first fix was easy, though it took a bit of thrashing to figure out.
 You can put 816 in any directory you like, that's kinda the point of 
@@ -34,6 +34,7 @@ is taken, and the program jumps to the monitor/reset routine at `$FA62`.
 `Original:`
 
 `10 14 BPL <old exit path>`
+
 Those have been replaced with NOP codes so it falls through to the real quit:
 
 `EA NOP`
