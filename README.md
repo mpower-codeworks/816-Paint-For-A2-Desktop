@@ -15,6 +15,11 @@ SYSTEM has FONTS and PRINTERS directories. You can add any fonts you want
 to FONTS, up to about ten or so (needs to fit on screen). The IIgs font
 pack from What is the Apple IIgs? works great.
 
+<img src="images/FONTS.jpg"
+    align="left"
+    width="18%"
+    alt="COTAWG.jpg">
+
 The quit issue was a bit more involved. Both exes have this problem.
 
 `PAINT.DBL.HIRES`
