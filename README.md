@@ -16,11 +16,13 @@ I am not sure if others have already figured this out, but I think I've gotten
 - Has to be on root volume else fonts and printers don't work
 - The fonts aren't that great
 - It doesn't quit cleanly back to A2D (goes to monitor)
+- The menus don't persist on click - it's a draaag, man
 -->
 - 𝐇𝐚𝐬 𝐭𝐨 𝐛𝐞 𝐨𝐧 𝐫𝐨𝐨𝐭 𝐯𝐨𝐥𝐮𝐦𝐞 𝐞𝐥𝐬𝐞 𝐟𝐨𝐧𝐭𝐬 𝐚𝐧𝐝 𝐩𝐫𝐢𝐧𝐭𝐞𝐫𝐬 𝐝𝐨𝐧'𝐭 𝐰𝐨𝐫𝐤
 - 𝐓𝐡𝐞 𝐟𝐨𝐧𝐭𝐬 𝐚𝐫𝐞𝐧'𝐭 𝐭𝐡𝐚𝐭 𝐠𝐫𝐞𝐚𝐭
 - 𝐈𝐭 𝐝𝐨𝐞𝐬𝐧'𝐭 𝐪𝐮𝐢𝐭 𝐜𝐥𝐞𝐚𝐧𝐥𝐲 𝐛𝐚𝐜𝐤 𝐭𝐨 A2 Desktop (𝐠𝐨𝐞𝐬 𝐭𝐨 𝐦𝐨𝐧𝐢𝐭𝐨𝐫)
-
+- 𝐓𝐡𝐞 𝐦𝐞𝐧𝐮𝐬 𝐝𝐨𝐧'𝐭 𝐩𝐞𝐫𝐬𝐢𝐬𝐭 𝐨𝐧 𝐜𝐥𝐢𝐜𝐤 - 𝐢𝐭'𝐬 𝐚 𝐝𝐫𝐚𝐚𝐚𝐠, 𝐦𝐚𝐧
+  
 <!--
 The first fix was easy, though it took a bit of thrashing to figure out.
 You can put 816 in any directory you like, that's kinda the point of 
