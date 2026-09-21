@@ -65,7 +65,7 @@ is taken, and the program jumps to the monitor/reset routine at `$FA62`.
 𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥𝐥𝐲 𝐛𝐫𝐚𝐧𝐜𝐡𝐞𝐬 𝐭𝐨 𝐚𝐧 𝐨𝐥𝐝𝐞𝐫 𝐞𝐱𝐢𝐭 𝐩𝐚𝐭𝐡. 𝐎𝐧 𝐚𝐧 𝐀2𝐃 𝐞𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐭𝐡𝐚𝐭 𝐛𝐫𝐚𝐧𝐜𝐡
 𝐢𝐬 𝐭𝐚𝐤𝐞𝐧, 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐩𝐫𝐨𝐠𝐫𝐚𝐦 𝐣𝐮𝐦𝐩𝐬 𝐭𝐨 𝐭𝐡𝐞 𝐦𝐨𝐧𝐢𝐭𝐨𝐫/𝐫𝐞𝐬𝐞𝐭 𝐫𝐨𝐮𝐭𝐢𝐧𝐞 𝐚𝐭 `$FA62`.
 
-Original:
+𝐎𝐫𝐢𝐠𝐢𝐧𝐚𝐥:
 
 `10 14 BPL <old exit path>`
 
