@@ -17,23 +17,27 @@ pack from What is the Apple IIgs? works great.
 
 The quit issue was a bit more involved. Both exes have this problem.
 
-PAINT.DBL.HIRES
-PAINT.STD.HIRES
+`PAINT.DBL.HIRES`
+
+`PAINT.STD.HIRES`
 
 They both have the correct return path, but we never get there:
 
-JSR $BF00
-.BYTE $65
+`JSR $BF00`
 
-The problem is that immediately before that code 816 tests location $E17E and
+`.BYTE $65`
+
+The problem is that immediately before that code 816 tests location `$E17E` and
 conditionally branches to an older exit path. On an A2D environment that branch
-is taken, and the program jumps to the monitor/reset routine at $FA62.
+is taken, and the program jumps to the monitor/reset routine at `$FA62`.
 
-Original:
-10 14 BPL <old exit path>
+`Original:`
 
+`10 14 BPL <old exit path>`
 Those have been replaced with NOP codes so it falls through to the real quit:
-EA NOP
-EA NOP
+
+`EA NOP`
+
+`EA NOP`
 
 Four bytes changed.
