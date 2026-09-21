@@ -2,7 +2,7 @@
 
 I am not sure if others have already figured this out, but I think I've gotten
 816 Paint working pretty well on A2 Desktop. There were a few issues preventing
-816 from being fun to use with A2D.
+816 from being fun to use with A2D:
 
 - Has to be on root volume else fonts and printers don't work
 - The fonts aren't that great
