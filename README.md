@@ -39,52 +39,80 @@ pack from What is the Apple IIgs? works great.
 <img src="images/FONTS.jpg"
     width="28%"
     alt="FONTS.jpg">
-
+<!--
 The quit issue was a bit more involved. Both exes have this problem.
+-->
+𝐓𝐡𝐞 𝐪𝐮𝐢𝐭 𝐢𝐬𝐬𝐮𝐞 𝐰𝐚𝐬 𝐚 𝐛𝐢𝐭 𝐦𝐨𝐫𝐞 𝐢𝐧𝐯𝐨𝐥𝐯𝐞𝐝. 𝐁𝐨𝐭𝐡 𝐞𝐱𝐞𝐬 𝐡𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐛𝐥𝐞𝐦.
 
 `PAINT.DBL.HIRES`
 
 `PAINT.STD.HIRES`
-
+<!--
 They both have the correct return path, but we never get there:
+-->
+𝐓𝐡𝐞𝐲 𝐛𝐨𝐭𝐡 𝐡𝐚𝐯𝐞 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐫𝐞𝐭𝐮𝐫𝐧 𝐩𝐚𝐭𝐡, 𝐛𝐮𝐭 𝐰𝐞 𝐧𝐞𝐯𝐞𝐫 𝐠𝐞𝐭 𝐭𝐡𝐞𝐫𝐞:
 
 `JSR $BF00`
 
 `.BYTE $65`
 
+<!--
 The problem is that immediately before that code 816 tests location `$E17E` and
 conditionally branches to an older exit path. On an A2D environment that branch
 is taken, and the program jumps to the monitor/reset routine at `$FA62`.
+-->
+𝐓𝐡𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐢𝐬 𝐭𝐡𝐚𝐭 𝐢𝐦𝐦𝐞𝐝𝐢𝐚𝐭𝐞𝐥𝐲 𝐛𝐞𝐟𝐨𝐫𝐞 𝐭𝐡𝐚𝐭 𝐜𝐨𝐝𝐞 816 𝐭𝐞𝐬𝐭𝐬 𝐥𝐨𝐜𝐚𝐭𝐢𝐨𝐧 `$E17E` 𝐚𝐧𝐝
+𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥𝐥𝐲 𝐛𝐫𝐚𝐧𝐜𝐡𝐞𝐬 𝐭𝐨 𝐚𝐧 𝐨𝐥𝐝𝐞𝐫 𝐞𝐱𝐢𝐭 𝐩𝐚𝐭𝐡. 𝐎𝐧 𝐚𝐧 𝐀2𝐃 𝐞𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐭𝐡𝐚𝐭 𝐛𝐫𝐚𝐧𝐜𝐡
+𝐢𝐬 𝐭𝐚𝐤𝐞𝐧, 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐩𝐫𝐨𝐠𝐫𝐚𝐦 𝐣𝐮𝐦𝐩𝐬 𝐭𝐨 𝐭𝐡𝐞 𝐦𝐨𝐧𝐢𝐭𝐨𝐫/𝐫𝐞𝐬𝐞𝐭 𝐫𝐨𝐮𝐭𝐢𝐧𝐞 𝐚𝐭 `$FA62`.
 
 Original:
 
 `10 14 BPL <old exit path>`
 
+<!--
 Those have been replaced with NOP codes so it falls through to the real quit:
+-->
+𝐓𝐡𝐨𝐬𝐞 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐫𝐞𝐩𝐥𝐚𝐜𝐞𝐝 𝐰𝐢𝐭𝐡 𝐍𝐎𝐏 𝐜𝐨𝐝𝐞𝐬 𝐬𝐨 𝐢𝐭 𝐟𝐚𝐥𝐥𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐭𝐨 𝐭𝐡𝐞 𝐫𝐞𝐚𝐥 𝐪𝐮𝐢𝐭:
 
 `EA NOP`
 
 `EA NOP`
 
+<!--
 Four bytes changed.
 
 The menu modification took quite a bit of digging, but we have:
 
 Original:
+-->
+𝐅𝐨𝐮𝐫 𝐛𝐲𝐭𝐞𝐬 𝐜𝐡𝐚𝐧𝐠𝐞𝐝.
+
+𝐓𝐡𝐞 𝐦𝐞𝐧𝐮 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨𝐨𝐤 𝐪𝐮𝐢𝐭𝐞 𝐚 𝐛𝐢𝐭 𝐨𝐟 𝐝𝐢𝐠𝐠𝐢𝐧𝐠, 𝐛𝐮𝐭 𝐰𝐞 𝐡𝐚𝐯𝐞:
+
+𝐎𝐫𝐢𝐠𝐢𝐧𝐚𝐥:
 
 `24 D5 BIT $D5 ; button-up transition`
 
+<!--
 Is now:
+-->
+𝐈𝐬 𝐧𝐨𝐰:
 
 `24 D4 BIT $D4 ; button-down transition`
 
+<!--
 So:
+-->
+𝐒𝐨:
 
 `$06AC7: D5 -> D4`
 
 `$0EF1C: D5 -> D4`
 
+<!--
 Two bytes changed.
+-->
+𝐓𝐰𝐨 𝐛𝐲𝐭𝐞𝐬 𝐜𝐡𝐚𝐧𝐠𝐞𝐝.
 
 <img src="images/MENUS.jpg"
     width="60%"
