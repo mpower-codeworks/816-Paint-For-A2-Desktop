@@ -87,5 +87,5 @@ So:
 Two bytes changed.
 
 <img src="images/MENUS.jpg"
-    width="28%"
+    width="60"
     alt="MENUS.jpg">
