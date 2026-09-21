@@ -1,15 +1,15 @@
 <!--
 # 816-Paint-For-A2-Desktop
 
-I am not sure if others have already figured this out, but I think I've gotten
-816 Paint working pretty well on A2 Desktop. There were a few issues preventing
+I am not sure if others have already figured these out, but I think I've gotten
+8/16 Paint working pretty well on A2 Desktop. There were a few issues preventing
 816 from being fun to use with A2D:
 -->
 
 # 8/16-𝐏𝐚𝐢𝐧𝐭-𝐅𝐨𝐫-𝐀2-𝐃𝐞𝐬𝐤𝐭𝐨𝐩
 
-𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐬𝐮𝐫𝐞 𝐢𝐟 𝐨𝐭𝐡𝐞𝐫𝐬 𝐡𝐚𝐯𝐞 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐟𝐢𝐠𝐮𝐫𝐞𝐝 𝐭𝐡𝐢𝐬 𝐨𝐮𝐭, 𝐛𝐮𝐭 𝐈 𝐭𝐡𝐢𝐧𝐤 𝐈'𝐯𝐞 𝐠𝐨𝐭𝐭𝐞𝐧
-816 Paint 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 𝐩𝐫𝐞𝐭𝐭𝐲 𝐰𝐞𝐥𝐥 𝐨𝐧
+𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐬𝐮𝐫𝐞 𝐢𝐟 𝐨𝐭𝐡𝐞𝐫𝐬 𝐡𝐚𝐯𝐞 𝐚𝐥𝐫𝐞𝐚𝐝𝐲 𝐟𝐢𝐠𝐮𝐫𝐞𝐝 𝐭𝐡𝐞𝐬𝐞 𝐨𝐮𝐭, 𝐛𝐮𝐭 𝐈 𝐭𝐡𝐢𝐧𝐤 𝐈'𝐯𝐞 𝐠𝐨𝐭𝐭𝐞𝐧
+8/16 Paint 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 𝐩𝐫𝐞𝐭𝐭𝐲 𝐰𝐞𝐥𝐥 𝐨𝐧
 [A2 Desktop](https://github.com/a2stuff/a2d).
 𝐓𝐡𝐞𝐫𝐞 𝐰𝐞𝐫𝐞 𝐚 𝐟𝐞𝐰 𝐢𝐬𝐬𝐮𝐞𝐬 𝐩𝐫𝐞𝐯𝐞𝐧𝐭𝐢𝐧𝐠
 8/16 𝐟𝐫𝐨𝐦 𝐛𝐞𝐢𝐧𝐠 𝐟𝐮𝐧 𝐭𝐨 𝐮𝐬𝐞 𝐰𝐢𝐭𝐡 𝐀2𝐃:
