@@ -46,6 +46,8 @@ pack from What is the Apple IIgs? works great.
 <!--
 The quit issue was a bit more involved. Both exes have this problem.
 -->
+## 𝐅𝐈𝐱𝐢𝐧𝐠 𝐂𝐫𝐚𝐬𝐡 𝐭𝐨 𝐌𝐨𝐧𝐢𝐭𝐨𝐫
+
 𝐓𝐡𝐞 𝐪𝐮𝐢𝐭 𝐢𝐬𝐬𝐮𝐞 𝐰𝐚𝐬 𝐚 𝐛𝐢𝐭 𝐦𝐨𝐫𝐞 𝐢𝐧𝐯𝐨𝐥𝐯𝐞𝐝. 𝐁𝐨𝐭𝐡 𝐞𝐱𝐞𝐬 𝐡𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐛𝐥𝐞𝐦.
 
 `PAINT.DBL.HIRES`
@@ -90,6 +92,8 @@ The menu modification took quite a bit of digging, but we have:
 Original:
 -->
 𝐅𝐨𝐮𝐫 𝐛𝐲𝐭𝐞𝐬 𝐜𝐡𝐚𝐧𝐠𝐞𝐝.
+
+## 𝐌𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞 𝐌𝐞𝐧𝐮𝐬 𝐏𝐞𝐫𝐬𝐢𝐬𝐭𝐞𝐧𝐭
 
 𝐓𝐡𝐞 𝐦𝐞𝐧𝐮 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨𝐨𝐤 𝐪𝐮𝐢𝐭𝐞 𝐚 𝐛𝐢𝐭 𝐨𝐟 𝐝𝐢𝐠𝐠𝐢𝐧𝐠, 𝐛𝐮𝐭 𝐰𝐞 𝐡𝐚𝐯𝐞:
 
